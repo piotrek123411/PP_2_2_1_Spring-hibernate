@@ -40,6 +40,7 @@ public class AppConfig {
    public LocalSessionFactoryBean getSessionFactory() {
       LocalSessionFactoryBean factoryBean = new LocalSessionFactoryBean();
       factoryBean.setDataSource(getDataSource());
+      factoryBean.setAnnotatedPackages();
       
       Properties props=new Properties();
       props.put("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");

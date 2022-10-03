@@ -37,8 +37,8 @@ public class MainApp {
          System.out.println("Email = "+user.getEmail());
          System.out.println();
       }
-      System.out.println("Найти \"BMW X5\"");
-      System.out.println(userService.findOwner("BMW", "X5"));
+      System.out.println("Найти \"BMW 545\"");
+      System.out.println(userService.findOwner("BMW", "545"));
 
       context.close();
    }

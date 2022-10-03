@@ -20,7 +20,6 @@ public class Car {
     private User owner;
 
     public Car() {
-
     }
 
     public Car(String name, String series) {
