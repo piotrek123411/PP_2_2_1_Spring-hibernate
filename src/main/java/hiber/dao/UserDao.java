@@ -5,8 +5,8 @@ import hiber.model.User;
 import java.util.List;
 
 public interface UserDao {
-    void add(User user);
-    List<User> listUsers();
-    User findOwner(String car_name, String car_series);
-    void deleteAllUsers();
+   void add(User user);
+   List<User> listUsers();
+   void deleteAllUsers();
+   User getOwner(String car_name, String car_series);
 }
