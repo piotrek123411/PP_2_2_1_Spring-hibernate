@@ -33,8 +33,8 @@ public class UserServiceImp implements UserService {
    }
 
    @Override
-   public User findOwner(String car_name, String car_series) {
-      return userDao.findOwner(car_name, car_series);
+   public User getOwner(String car_name, String car_series) {
+      return userDao.getOwner(car_name, car_series);
    }
 
 }
