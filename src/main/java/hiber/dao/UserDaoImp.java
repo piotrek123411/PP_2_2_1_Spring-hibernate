@@ -40,19 +40,7 @@ public class UserDaoImp implements UserDao {
       } else {
          return null;
       }
-
-//      if (!findUser.isEmpty()) {
-//         Car findCar = findUser.get(0);
-//         List<User> ListUser = listUsers();
-//         User FindUser = ListUser.stream()
-//                 .filter(user -> user.getCar().equals(findCar))
-//                 .findAny()
-//                 .orElse(null);
-//         return FindUser;
-//      }
-//      return null;
    }
-
 
    @Override
    public void deleteAllUsers() {

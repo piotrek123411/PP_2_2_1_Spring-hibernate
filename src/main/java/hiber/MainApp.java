@@ -16,7 +16,6 @@ public class MainApp {
             new AnnotationConfigApplicationContext(AppConfig.class);
 
       CarService carService = context.getBean(CarService.class);
-//      carService.deleteAllCars();
       carService.add(new Car("BMW", "316"));
       carService.add(new Car("BMW", "525"));
       carService.add(new Car("BMW", "545"));
